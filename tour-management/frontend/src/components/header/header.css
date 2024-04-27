@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #ffffff;
+  color: #fff;
+  box-shadow: 2px 2px 7px rgba(198, 198, 198, 0.666);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: purple;
+  /* font-weight: ; */
+  font-size: 18px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  background-color: purple;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.buttons button:hover {
+  background-color: rgb(117, 1, 117);
+}
+
+a#logo {
+  text-decoration: none;
+}
+
+a#logo h2 {
+  font-size: 27px;
+}
+
+header nav {
+  margin-left: 40em;
+}
+
+header nav ul li {
+  margin: 0px 13px;
+}
+
+header nav ul li:hover a{
+  color: rgb(99, 0, 99);
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+button a:hover{
+  color: white;
+}

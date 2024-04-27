@@ -1,0 +1,31 @@
+.hero__img-box img, .hero__img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 3px 6px rgba(128, 128, 128, 0.545);
+    object-fit: cover;
+}
+
+.services__subtitle{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(216, 22, 0);
+}
+
+.featured__tour-title{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.services__subtitle{
+    font-family: "Island Moments", cursive;
+    color: black;
+    background-color: #faa935 !important;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+.hero__subtitle img{
+    height: 50px;
+}
