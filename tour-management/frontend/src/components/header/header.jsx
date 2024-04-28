@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <a id='logo' href='/home'><h2>ItineraryPlanner</h2></a>
+        <a id='logo' href='/'><h2 id='title-web'>ItineraryPlanner</h2></a>
       </div>
       <nav>
         <ul>

@@ -12,6 +12,11 @@ header {
   z-index: 100;
 }
 
+#title-web{
+  font-family: cursive;
+  margin-left: 15px;
+}
+
 .logo h2 {
   margin: 0;
 }
@@ -62,7 +67,7 @@ a#logo h2 {
 }
 
 header nav {
-  margin-left: 40em;
+  margin-left:37em;
 }
 
 header nav ul li {

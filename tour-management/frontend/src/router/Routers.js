@@ -9,12 +9,15 @@ import TourDetails from './../Pages/TourDetails';
 import Tours from './../Pages/Tours';
 import Blog from './../Pages/Blog';
 import About from './../Pages/About';
+import Contact from './../Pages/contact';
 
 const Routers = () => {
     return (
         <Routes>
             <Route path='' element={ <Navigate to={'/home'}/>} />
             <Route path='/home' element={ <Home/>} />
+            <Route path='/' element={ <Home/>} />
+            <Route path='/contact' element={ <Contact/>} />
             <Route path='/login' element={ <Login/>} />
             <Route path='/register' element={ <Register/>} />
             <Route path='/tours/search' element={ <SearchResultList/>} />

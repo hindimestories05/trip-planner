@@ -1,0 +1,46 @@
+.tour-page {
+    /* Your styles for the tour page */
+}
+
+div p{
+    text-align: justify;
+}
+
+button{
+    border: none;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.grid-container {
+    margin: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 4 columns with equal width */
+    grid-gap: 30px;
+    /* Adjust the gap between grid items */
+}
+
+#title-blog{
+    font-family: monospace;
+    text-align: center;
+    margin: 34px;
+}
+
+h3{
+    font-family: cursive;
+}
+
+.grid-item {
+    border-radius: 10px;
+    background-color: #ddd;
+    /* Background color of grid items */
+    padding: 20px;
+    /* Adjust padding as needed */
+    text-align: center;
+    /* Align content center */
+}
+
+button:hover{
+    font-size: 17px;
+}

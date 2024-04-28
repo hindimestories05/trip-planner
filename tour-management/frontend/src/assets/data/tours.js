@@ -9,16 +9,20 @@ import tourImg07 from "../images/tour-img07.jpg";
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
-    distance: 300,
-    price: 99,
+    title: "Colaba CauseWay, Mumbai",
+    city: "Mumbai",
+    distance: 369,
+    price: 12,
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
+        name: "Mayank Yadav",
         rating: 4.6,
+      },
+      {
+        name: "Chandan",
+        rating: 4.7,
       },
     ],
     avgRating: 4.5,
@@ -27,16 +31,24 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
-    distance: 400,
-    price: 99,
+    title: "Victoria Memorial Hall, Kolkata",
+    city: "Kolkata",
+    distance: 243,
+    price: 23,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "Mayank Yadav",
+        rating: 4,
+      },
+      {
+        name: "Chandan",
+        rating: 3.2,
+      },
+      {
+        name: "Sami",
+        rating: 4.5,
       },
     ],
     avgRating: 4.5,
@@ -45,16 +57,16 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
+    title: "Swaminarayan Temple, Ahmedabad",
+    city: "Ahmedabad",
+    distance: 90,
+    price: 10,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
-        name: "jhon doe",
-        rating: 4.6,
+        name: "Ketan",
+        rating: 5,
       },
     ],
     avgRating: 4.5,
@@ -63,10 +75,10 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
+    title: "City Palace of Jaipur",
+    city: "Jaiput",
+    distance: 676,
+    price: 21,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -81,16 +93,28 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
-    distance: 500,
-    price: 99,
+    title: "Birla Mandir, Hydrabad",
+    city: "Hydrabad",
+    distance: 321,
+    price: 7,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
       {
         name: "jhon doe",
-        rating: 4.6,
+        rating: 2.5,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.5,
+      },
+      {
+        name: "jhon doe",
+        rating: 3.5,
+      },
+      {
+        name: "jhon doe",
+        rating: 4,
       },
     ],
     avgRating: 4.5,
@@ -99,10 +123,10 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
-    distance: 500,
-    price: 99,
+    title: "Belur Math, Delhi",
+    city: "Delhi",
+    distance: 12,
+    price: 17,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -111,7 +135,7 @@ const tours = [
         rating: 4.6,
       },
       {
-        name: "jhon doe",
+        name: "Karan Shah",
         rating: 4.6,
       }
     ],
@@ -121,13 +145,29 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
-    distance: 500,
-    price: 99,
+    title: "Lalbag Garden, Bengaluru",
+    city: "Bengaluru",
+    distance: 332,
+    price: 5,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
       {
         name: "jhon doe",
         rating: 4.6,
@@ -139,10 +179,10 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
+    title: "Banaras Ghat",
+    city: "Ghat",
+    distance: 567,
+    price: 10,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [

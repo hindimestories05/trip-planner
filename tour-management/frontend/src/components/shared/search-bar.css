@@ -11,6 +11,7 @@
   color: rgb(136, 0, 0);
 }
 
+
 .form__group input{
   border: none;
   font-size: 0.9rem;
@@ -25,6 +26,10 @@
   border-right: 2px solid black;
 }
 
+
+
+
+
 .search__icon i{
 
   font-size: 1.6rem;
@@ -34,4 +39,19 @@
   border-radius: 10px;
   cursor: pointer;
 
+}
+
+.search-input {
+  border: none !important;
+}
+
+.suggestions{
+  box-shadow: inset 2px 3px 5px rgb(223, 223, 223);
+  border-radius: 10px;
+}
+.suggestions li:hover{
+  cursor: pointer;
+}
+.suggestions li{
+  margin: 5px 0px;
 }
