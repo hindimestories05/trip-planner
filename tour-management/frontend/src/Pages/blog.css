@@ -41,6 +41,6 @@ h3{
     /* Align content center */
 }
 
-button:hover{
+.grid-container button:hover{
     font-size: 17px;
 }
